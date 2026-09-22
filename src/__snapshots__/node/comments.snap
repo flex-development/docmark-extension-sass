@@ -1,0 +1,9 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`unit:comments > should be extension 1`] = `
+{
+  "source": {
+    "47": [],
+  },
+}
+`;
