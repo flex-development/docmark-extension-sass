@@ -11,22 +11,21 @@ import type {
   FileLike,
   ParseOptions
 } from '@flex-development/docmark-util-types'
-import pathe from '@flex-development/pathe'
 import { readSync as read } from 'to-vfile'
 import { beforeAll, describe, expect, it } from 'vitest'
 
-describe.todo('integration:comments', () => {
+describe('integration:comments', () => {
   let options: ParseOptions
 
   beforeAll(() => {
-    options = { extensions: [testSubject] }
+    options = {
+      extensions: [testSubject, { settings: { sass: { indented: true } } }]
+    }
   })
 
-  it.each<[path: string]>([
-    //
-  ])('should parse sass comments (%j)', path => {
+  it('should parse sass comments', () => {
     // Arrange
-    const file: FileLike = read(pathe.join('__fixtures__', path))
+    const file: FileLike = read('__fixtures__/comments.txt')
     const slice: Chunk[] = preprocess()(file, undefined, true)
 
     // Act

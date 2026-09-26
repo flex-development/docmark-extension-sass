@@ -55,6 +55,8 @@ function snapshotEvents(this: void, events: Event[]): [EventType, Token][] {
       token.type !== tt.paragraph &&
       token.type !== tt.reference &&
       token.type !== tt.referenceString &&
+      token.type !== tt.setextHeading &&
+      token.type !== tt.setextHeadingText &&
       token.type !== tt.strong &&
       token.type !== tt.strongText &&
       token.type !== tt.summaryMarker &&

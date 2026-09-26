@@ -1,0 +1,33 @@
+/// ----------------------------------------------------------------------------
+    functions
+    @group functions
+    ----------------------------------------------------------------------------
+
+@use 'sass:map';
+@use 'sass:math';
+@use 'sass:meta';
+@use 'tokens' as *;
+
+/**
+ * Create an accent color.
+ *
+ * @require {function} map.get
+ * @require {variable} accents
+ * @require {variable} intensities
+ *
+ * @param {keyof $accents} $color
+ *  The name of the color
+ * @param {keyof $intensities} [$intensity='strong']
+ *  The intensity of the color
+ * @return {Color}
+ *  The accent color
+ */
+@function accent($color, $intensity: 'strong') {
+  $accent: map.get($accents, $color); // the accent color.
+  $strength: map.get($intensities, $intensity); // the intensity of the color.
+
+  /*
+    create the accent color.\
+    https://developer.mozilla.org/docs/Web/CSS/Reference/Values/color_value/rgb
+  @return rgb(from $accent r g b / $strength);
+}

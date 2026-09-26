@@ -15,6 +15,12 @@ import fldv from '@flex-development/eslint-config'
 const config = [
   ...fldv.configs.node,
   {
+    files: ['src/typings/**/*'],
+    rules: {
+      'jsdoc/require-file-overview': 0
+    }
+  },
+  {
     files: ['src/*.comment.mts'],
     rules: {
       'unicorn/no-this-assignment': 0

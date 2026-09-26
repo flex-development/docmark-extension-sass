@@ -5,6 +5,8 @@
 
 import { codes, constants } from '@flex-development/docmark-util-symbol'
 import type { NormalizedExtension } from '@flex-development/docmark-util-types'
+import blockComment from './block.comment.mts'
+import lineComment from './line.comment.mts'
 
 /**
  * The sass comments syntax extension.
@@ -14,7 +16,9 @@ import type { NormalizedExtension } from '@flex-development/docmark-util-types'
  * @const {NormalizedExtension} comments
  */
 const comments: NormalizedExtension = {
-  [constants.contentTypeSource]: { [codes.slash]: [] }
+  [constants.contentTypeSource]: {
+    [codes.slash]: [blockComment, lineComment]
+  }
 }
 
 export default comments

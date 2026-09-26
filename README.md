@@ -23,6 +23,9 @@
 - [Install](#install)
 - [Use](#use)
 - [API](#api)
+  - [`sassComments`][api-comments]
+  - [`sassBlockComment`][api-block-comment]
+  - [`sassLineComment`][api-line-comment]
 - [Types](#types)
 - [Project](#project)
   - [Version](#version)
@@ -74,7 +77,22 @@ In browsers with [`esm.sh`][esmsh]:
 
 ## API
 
-**TODO**: api
+This package exports the identifiers [`sassComments`][api-comments], [`sassBlockComment`][api-block-comment],
+and [`sassLineComment`][api-line-comment].
+
+The default export is `sassComments`.
+
+### [`sassComments`](./src/comments.mts)
+
+**TODO**: `sassComments`
+
+### [`sassBlockComment`](./src/block.comment.mts)
+
+**TODO**: `sassBlockComment`
+
+### [`sassLineComment`](./src/line.comment.mts)
+
+**TODO**: `sassLineComment`
 
 ## Types
 
@@ -97,6 +115,12 @@ By interacting with this repository, organization, or community you agree to abi
 
 Small primitives power larger systems.
 Support long-term stability by sponsoring Flex Development.
+
+[api-block-comment]: #sassblockcomment
+
+[api-comments]: #sasscomments
+
+[api-line-comment]: #sasslinecomment
 
 [docmark]: https://github.com/flex-development/docmark
 

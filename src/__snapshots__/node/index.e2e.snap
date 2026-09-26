@@ -2,6 +2,9 @@
 
 exports[`e2e:docmark-extension-sass > should expose public api 1`] = `
 [
+  "sassBlockComment",
   "default",
+  "sassComments",
+  "sassLineComment",
 ]
 `;
