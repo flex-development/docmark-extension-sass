@@ -15,7 +15,7 @@ import indented from './internal/indented.mts'
 /**
  * The sass block comment construct.
  *
- * This construct is expected to run at the `source` content level.
+ * This construct is expected to run at the `comments` content level.
  *
  * @see {@linkcode ContinuableConstruct}
  *
@@ -26,8 +26,8 @@ const blockComment: ContinuableConstruct = factoryBlockComment({
   construct: { resolve: resolveBlockComment },
   fields: { info: undefined, loud: undefined },
   markers: {
-    closer: [codes.asterisk, codes.slash],
-    line: codes.asterisk,
+    closer: [{ code: codes.asterisk }, { code: codes.slash }],
+    line: { code: codes.asterisk },
     opener: [
       { code: codes.slash },
       { code: codes.asterisk },
@@ -39,7 +39,7 @@ const blockComment: ContinuableConstruct = factoryBlockComment({
 export default blockComment
 
 /**
- * Determine if any block comments are documentation comments.
+ * Determine if any `comment` tokens represent docblocks.
  *
  * Any block comments that are not docblocks are considered loud comments.
  *

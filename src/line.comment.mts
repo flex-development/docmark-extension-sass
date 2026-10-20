@@ -15,7 +15,7 @@ import indented from './internal/indented.mts'
 /**
  * The sass line comment construct.
  *
- * This construct is expected to run at the `source` content level.
+ * This construct is expected to run at the `comments` content level.
  *
  * @see {@linkcode ContinuableConstruct}
  *
@@ -31,7 +31,7 @@ const lineComment: ContinuableConstruct = factoryLineComment({
 export default lineComment
 
 /**
- * Determine if any line comments are documentation comments.
+ * Determine if any `comment` tokens represent docline comments.
  *
  * @internal
  *

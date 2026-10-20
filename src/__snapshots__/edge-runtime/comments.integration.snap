@@ -238,7 +238,6 @@ exports[`integration:comments > should parse sass comments 1`] = `
   [
     "enter",
     {
-      "_container": true,
       "_region": true,
       "end": {
         "_bufferIndex": -1,
@@ -255,6 +254,10 @@ exports[`integration:comments > should parse sass comments 1`] = `
         "offset": 4,
       },
       "type": "summary",
+      "value": "----------------------------------------------------------------------------
+functions
+@group functions
+----------------------------------------------------------------------------",
     },
   ],
   [
@@ -1388,7 +1391,6 @@ exports[`integration:comments > should parse sass comments 1`] = `
   [
     "exit",
     {
-      "_container": true,
       "_region": true,
       "end": {
         "_bufferIndex": -1,
@@ -1405,6 +1407,10 @@ exports[`integration:comments > should parse sass comments 1`] = `
         "offset": 4,
       },
       "type": "summary",
+      "value": "----------------------------------------------------------------------------
+functions
+@group functions
+----------------------------------------------------------------------------",
     },
   ],
   [
@@ -1521,6 +1527,236 @@ exports[`integration:comments > should parse sass comments 1`] = `
   [
     "enter",
     {
+      "contentType": "language",
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 11,
+        "column": 1,
+        "line": 7,
+        "offset": 215,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 9,
+        "column": 1,
+        "line": 6,
+        "offset": 198,
+      },
+      "type": "chunkLanguage",
+      "value": "@use 'sass:map';
+",
+    },
+  ],
+  [
+    "exit",
+    {
+      "contentType": "language",
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 11,
+        "column": 1,
+        "line": 7,
+        "offset": 215,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 9,
+        "column": 1,
+        "line": 6,
+        "offset": 198,
+      },
+      "type": "chunkLanguage",
+      "value": "@use 'sass:map';
+",
+    },
+  ],
+  [
+    "enter",
+    {
+      "contentType": "language",
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 13,
+        "column": 1,
+        "line": 8,
+        "offset": 233,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 11,
+        "column": 1,
+        "line": 7,
+        "offset": 215,
+      },
+      "type": "chunkLanguage",
+      "value": "@use 'sass:math';
+",
+    },
+  ],
+  [
+    "exit",
+    {
+      "contentType": "language",
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 13,
+        "column": 1,
+        "line": 8,
+        "offset": 233,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 11,
+        "column": 1,
+        "line": 7,
+        "offset": 215,
+      },
+      "type": "chunkLanguage",
+      "value": "@use 'sass:math';
+",
+    },
+  ],
+  [
+    "enter",
+    {
+      "contentType": "language",
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 15,
+        "column": 1,
+        "line": 9,
+        "offset": 251,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 13,
+        "column": 1,
+        "line": 8,
+        "offset": 233,
+      },
+      "type": "chunkLanguage",
+      "value": "@use 'sass:meta';
+",
+    },
+  ],
+  [
+    "exit",
+    {
+      "contentType": "language",
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 15,
+        "column": 1,
+        "line": 9,
+        "offset": 251,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 13,
+        "column": 1,
+        "line": 8,
+        "offset": 233,
+      },
+      "type": "chunkLanguage",
+      "value": "@use 'sass:meta';
+",
+    },
+  ],
+  [
+    "enter",
+    {
+      "contentType": "language",
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 17,
+        "column": 1,
+        "line": 10,
+        "offset": 271,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 15,
+        "column": 1,
+        "line": 9,
+        "offset": 251,
+      },
+      "type": "chunkLanguage",
+      "value": "@use 'tokens' as *;
+",
+    },
+  ],
+  [
+    "exit",
+    {
+      "contentType": "language",
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 17,
+        "column": 1,
+        "line": 10,
+        "offset": 271,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 15,
+        "column": 1,
+        "line": 9,
+        "offset": 251,
+      },
+      "type": "chunkLanguage",
+      "value": "@use 'tokens' as *;
+",
+    },
+  ],
+  [
+    "enter",
+    {
+      "contentType": "language",
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 18,
+        "column": 1,
+        "line": 11,
+        "offset": 272,
+      },
+      "start": {
+        "_bufferIndex": -1,
+        "_index": 17,
+        "column": 1,
+        "line": 10,
+        "offset": 271,
+      },
+      "type": "chunkLanguage",
+      "value": "
+",
+    },
+  ],
+  [
+    "exit",
+    {
+      "contentType": "language",
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 18,
+        "column": 1,
+        "line": 11,
+        "offset": 272,
+      },
+      "start": {
+        "_bufferIndex": -1,
+        "_index": 17,
+        "column": 1,
+        "line": 10,
+        "offset": 271,
+      },
+      "type": "chunkLanguage",
+      "value": "
+",
+    },
+  ],
+  [
+    "enter",
+    {
       "end": {
         "_bufferIndex": -1,
         "_index": 45,
@@ -1921,7 +2157,6 @@ exports[`integration:comments > should parse sass comments 1`] = `
   [
     "enter",
     {
-      "_container": true,
       "_region": true,
       "end": {
         "_bufferIndex": -1,
@@ -1938,6 +2173,18 @@ exports[`integration:comments > should parse sass comments 1`] = `
         "offset": 279,
       },
       "type": "summary",
+      "value": "Create an accent color.
+
+@require {function} map.get
+@require {variable} accents
+@require {variable} intensities
+
+@param {keyof $accents} $color
+ The name of the color
+@param {keyof $intensities} [$intensity='strong']
+ The intensity of the color
+@return {Color}
+ The accent color",
     },
   ],
   [
@@ -5081,7 +5328,6 @@ exports[`integration:comments > should parse sass comments 1`] = `
   [
     "exit",
     {
-      "_container": true,
       "_region": true,
       "end": {
         "_bufferIndex": -1,
@@ -5098,6 +5344,18 @@ exports[`integration:comments > should parse sass comments 1`] = `
         "offset": 279,
       },
       "type": "summary",
+      "value": "Create an accent color.
+
+@require {function} map.get
+@require {variable} accents
+@require {variable} intensities
+
+@param {keyof $accents} $color
+ The name of the color
+@param {keyof $intensities} [$intensity='strong']
+ The intensity of the color
+@return {Color}
+ The accent color",
     },
   ],
   [
@@ -5377,6 +5635,142 @@ exports[`integration:comments > should parse sass comments 1`] = `
   [
     "enter",
     {
+      "contentType": "language",
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 46,
+        "column": 1,
+        "line": 25,
+        "offset": 594,
+      },
+      "start": {
+        "_bufferIndex": -1,
+        "_index": 45,
+        "column": 4,
+        "line": 24,
+        "offset": 593,
+      },
+      "type": "chunkLanguage",
+      "value": "
+",
+    },
+  ],
+  [
+    "exit",
+    {
+      "contentType": "language",
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 46,
+        "column": 1,
+        "line": 25,
+        "offset": 594,
+      },
+      "start": {
+        "_bufferIndex": -1,
+        "_index": 45,
+        "column": 4,
+        "line": 24,
+        "offset": 593,
+      },
+      "type": "chunkLanguage",
+      "value": "
+",
+    },
+  ],
+  [
+    "enter",
+    {
+      "contentType": "language",
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 48,
+        "column": 1,
+        "line": 26,
+        "offset": 643,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 46,
+        "column": 1,
+        "line": 25,
+        "offset": 594,
+      },
+      "type": "chunkLanguage",
+      "value": "@function accent($color, $intensity: 'strong') {
+",
+    },
+  ],
+  [
+    "exit",
+    {
+      "contentType": "language",
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 48,
+        "column": 1,
+        "line": 26,
+        "offset": 643,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 46,
+        "column": 1,
+        "line": 25,
+        "offset": 594,
+      },
+      "type": "chunkLanguage",
+      "value": "@function accent($color, $intensity: 'strong') {
+",
+    },
+  ],
+  [
+    "enter",
+    {
+      "contentType": "language",
+      "end": {
+        "_bufferIndex": 38,
+        "_index": 48,
+        "column": 39,
+        "line": 26,
+        "offset": 681,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 48,
+        "column": 1,
+        "line": 26,
+        "offset": 643,
+      },
+      "type": "chunkLanguage",
+      "value": "  $accent: map.get($accents, $color); ",
+    },
+  ],
+  [
+    "exit",
+    {
+      "contentType": "language",
+      "end": {
+        "_bufferIndex": 38,
+        "_index": 48,
+        "column": 39,
+        "line": 26,
+        "offset": 681,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 48,
+        "column": 1,
+        "line": 26,
+        "offset": 643,
+      },
+      "type": "chunkLanguage",
+      "value": "  $accent: map.get($accents, $color); ",
+    },
+  ],
+  [
+    "enter",
+    {
       "end": {
         "_bufferIndex": 0,
         "_index": 50,
@@ -5566,7 +5960,6 @@ exports[`integration:comments > should parse sass comments 1`] = `
   [
     "enter",
     {
-      "_container": true,
       "_region": true,
       "end": {
         "_bufferIndex": -1,
@@ -5583,6 +5976,7 @@ exports[`integration:comments > should parse sass comments 1`] = `
         "offset": 684,
       },
       "type": "summary",
+      "value": "the accent color.",
     },
   ],
   [
@@ -5750,7 +6144,6 @@ exports[`integration:comments > should parse sass comments 1`] = `
   [
     "exit",
     {
-      "_container": true,
       "_region": true,
       "end": {
         "_bufferIndex": -1,
@@ -5767,6 +6160,7 @@ exports[`integration:comments > should parse sass comments 1`] = `
         "offset": 684,
       },
       "type": "summary",
+      "value": "the accent color.",
     },
   ],
   [
@@ -5832,6 +6226,50 @@ exports[`integration:comments > should parse sass comments 1`] = `
         "offset": 681,
       },
       "type": "comment",
+    },
+  ],
+  [
+    "enter",
+    {
+      "contentType": "language",
+      "end": {
+        "_bufferIndex": 48,
+        "_index": 50,
+        "column": 49,
+        "line": 27,
+        "offset": 750,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 50,
+        "column": 1,
+        "line": 27,
+        "offset": 702,
+      },
+      "type": "chunkLanguage",
+      "value": "  $strength: map.get($intensities, $intensity); ",
+    },
+  ],
+  [
+    "exit",
+    {
+      "contentType": "language",
+      "end": {
+        "_bufferIndex": 48,
+        "_index": 50,
+        "column": 49,
+        "line": 27,
+        "offset": 750,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 50,
+        "column": 1,
+        "line": 27,
+        "offset": 702,
+      },
+      "type": "chunkLanguage",
+      "value": "  $strength: map.get($intensities, $intensity); ",
     },
   ],
   [
@@ -6026,7 +6464,6 @@ exports[`integration:comments > should parse sass comments 1`] = `
   [
     "enter",
     {
-      "_container": true,
       "_region": true,
       "end": {
         "_bufferIndex": -1,
@@ -6043,6 +6480,7 @@ exports[`integration:comments > should parse sass comments 1`] = `
         "offset": 753,
       },
       "type": "summary",
+      "value": "the intensity of the color.",
     },
   ],
   [
@@ -6210,7 +6648,6 @@ exports[`integration:comments > should parse sass comments 1`] = `
   [
     "exit",
     {
-      "_container": true,
       "_region": true,
       "end": {
         "_bufferIndex": -1,
@@ -6227,6 +6664,7 @@ exports[`integration:comments > should parse sass comments 1`] = `
         "offset": 753,
       },
       "type": "summary",
+      "value": "the intensity of the color.",
     },
   ],
   [
@@ -6336,6 +6774,50 @@ exports[`integration:comments > should parse sass comments 1`] = `
         "offset": 750,
       },
       "type": "comment",
+    },
+  ],
+  [
+    "enter",
+    {
+      "contentType": "language",
+      "end": {
+        "_bufferIndex": 2,
+        "_index": 53,
+        "column": 3,
+        "line": 29,
+        "offset": 784,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 53,
+        "column": 1,
+        "line": 29,
+        "offset": 782,
+      },
+      "type": "chunkLanguage",
+      "value": "  ",
+    },
+  ],
+  [
+    "exit",
+    {
+      "contentType": "language",
+      "end": {
+        "_bufferIndex": 2,
+        "_index": 53,
+        "column": 3,
+        "line": 29,
+        "offset": 784,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 53,
+        "column": 1,
+        "line": 29,
+        "offset": 782,
+      },
+      "type": "chunkLanguage",
+      "value": "  ",
     },
   ],
   [
@@ -6658,7 +7140,6 @@ exports[`integration:comments > should parse sass comments 1`] = `
   [
     "enter",
     {
-      "_container": true,
       "_region": true,
       "end": {
         "_bufferIndex": -1,
@@ -6675,6 +7156,8 @@ exports[`integration:comments > should parse sass comments 1`] = `
         "offset": 791,
       },
       "type": "summary",
+      "value": "create the accent color.\\
+https://developer.mozilla.org/docs/Web/CSS/Reference/Values/color_value/rgb",
     },
   ],
   [
@@ -7182,7 +7665,6 @@ exports[`integration:comments > should parse sass comments 1`] = `
   [
     "exit",
     {
-      "_container": true,
       "_region": true,
       "end": {
         "_bufferIndex": -1,
@@ -7199,6 +7681,8 @@ exports[`integration:comments > should parse sass comments 1`] = `
         "offset": 791,
       },
       "type": "summary",
+      "value": "create the accent color.\\
+https://developer.mozilla.org/docs/Web/CSS/Reference/Values/color_value/rgb",
     },
   ],
   [
@@ -7266,6 +7750,98 @@ exports[`integration:comments > should parse sass comments 1`] = `
         "offset": 784,
       },
       "type": "comment",
+    },
+  ],
+  [
+    "enter",
+    {
+      "contentType": "language",
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 61,
+        "column": 1,
+        "line": 33,
+        "offset": 944,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 59,
+        "column": 1,
+        "line": 32,
+        "offset": 897,
+      },
+      "type": "chunkLanguage",
+      "value": "  @return rgb(from $accent r g b / $strength);
+",
+    },
+  ],
+  [
+    "exit",
+    {
+      "contentType": "language",
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 61,
+        "column": 1,
+        "line": 33,
+        "offset": 944,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 59,
+        "column": 1,
+        "line": 32,
+        "offset": 897,
+      },
+      "type": "chunkLanguage",
+      "value": "  @return rgb(from $accent r g b / $strength);
+",
+    },
+  ],
+  [
+    "enter",
+    {
+      "contentType": "language",
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 63,
+        "column": 1,
+        "line": 34,
+        "offset": 946,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 61,
+        "column": 1,
+        "line": 33,
+        "offset": 944,
+      },
+      "type": "chunkLanguage",
+      "value": "}
+",
+    },
+  ],
+  [
+    "exit",
+    {
+      "contentType": "language",
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 63,
+        "column": 1,
+        "line": 34,
+        "offset": 946,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 61,
+        "column": 1,
+        "line": 33,
+        "offset": 944,
+      },
+      "type": "chunkLanguage",
+      "value": "}
+",
     },
   ],
   [

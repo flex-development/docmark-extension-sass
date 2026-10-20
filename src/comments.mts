@@ -16,7 +16,7 @@ import lineComment from './line.comment.mts'
  * @const {NormalizedExtension} comments
  */
 const comments: NormalizedExtension = {
-  [constants.contentTypeSource]: {
+  [constants.contentTypeComments]: {
     [codes.slash]: [blockComment, lineComment]
   }
 }
