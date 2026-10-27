@@ -1717,7 +1717,7 @@ __metadata:
     "@commitlint/types": "npm:21.2.3"
     "@edge-runtime/vm": "npm:5.0.0"
     "@flex-development/commitlint-config": "npm:1.0.1"
-    "@flex-development/docmark": "npm:1.0.0-alpha.23"
+    "@flex-development/docmark": "npm:1.0.0-alpha.24"
     "@flex-development/docmark-factory-block": "npm:1.0.0-alpha.15"
     "@flex-development/docmark-factory-line": "npm:1.0.0-alpha.18"
     "@flex-development/docmark-util-symbol": "npm:1.0.0-alpha.13"
@@ -1876,9 +1876,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@flex-development/docmark@npm:1.0.0-alpha.23":
-  version: 1.0.0-alpha.23
-  resolution: "@flex-development/docmark@npm:1.0.0-alpha.23"
+"@flex-development/docmark@npm:1.0.0-alpha.24":
+  version: 1.0.0-alpha.24
+  resolution: "@flex-development/docmark@npm:1.0.0-alpha.24"
   dependencies:
     "@flex-development/docmark-factory-space": "npm:1.0.0-alpha.22"
     "@flex-development/docmark-grammar": "npm:1.0.0-alpha.22"
@@ -1895,7 +1895,7 @@ __metadata:
     micromark-core-commonmark: "npm:2.0.4"
     micromark-util-subtokenize: "npm:2.1.0"
     micromark-util-types: "npm:2.0.3"
-  checksum: 10/d1d299d97e66e94f680483d285475d03850bfcc34c7c8b26a0509de056fe32badadc2d474e9b0c2d5a098bff3ba3ae85f0662f3f26917df9a66f9c9bfd592cb2
+  checksum: 10/080059dec65c05ee793d61000e179f5385b3c0728dc9864928c0ccbc0a3f8ca70cb7993593679aa084e53bd0ba5ca5c83648aaa6579da63f87ea4164858ef576
   languageName: node
   linkType: hard
 
